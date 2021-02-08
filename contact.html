@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Car Rental</title>
+  </head>
+  <body>
+    <header id="header-about" class="bg-dark" >
+      <div class="container">
+        <nav id="main-nav" >
+          <h4 class="logo">Car Rental</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="about.html" >A'propos</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contact.html" class="current"*>Contact</a></li>
+          </ul>
+        </nav>
+    </header> 
+    <section id="contact-a">
+        <div class="container">
+          <h2 class="section-title">Contact Nous</h2>
+          <div class="bottom-line"></div>
+          <p class="lead">Voici comment vous pouvez nous joindre</p>
+          <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+            <div class="text-fields">
+              <input
+                type="text"
+                class="text-input name-input"
+                placeholder="Name"
+                name="name"
+              />
+              <input
+                type="text"
+                class="text-input subject-input"
+                placeholder="Subject"
+                name="subject"
+              />
+              <input
+                type="email"
+                class="text-input email-input"
+                placeholder="Email Address"
+                name="email"
+              />
+              <input
+                type="text"
+                class="text-input phone-input"
+                placeholder="Phone Number"
+                name="phone"
+              />
+              <textarea
+                class="text-input message-input"
+                placeholder="Enter Message"
+                name="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn-dark">Submit</button>
+          </form>
+        </div>
+      </section>
+          <!-- Section B: Contact Info -->
+          <section id="contact-b" class="bg-dark">
+            <div class="container">
+              <div class="contact-info">
+                <div>
+                  <i class="fa fa-envelope fa-2x"></i>
+                  <h3>Email</h3>
+                  <p>carrental@gmail.com</p>
+                </div>
+                <div>
+                  <i class="fa fa-phone fa-2x"></i>
+                  <h3>Phone</h3>
+                  <p>(+212) 0661873909</p>
+                </div>
+                <div>
+                  <i class="fa fa-address-card fa-2x"></i>
+                  <h3>Address</h3>
+                  <p>Madena Rue 16, CasaBlanca, Maroc</p>
+                </div>
+              </div>
+            </div>
+          </section>
+  
+   
+
+    <footer>
+      <div id="mainfooter">
+        <h3>Car Rental</h3>
+        <ul class="socials">
+          <li>
+            <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footerBottom">
+        <p>copyright &copy;2021 Car Rental</p>
+      </div>
+    </footer>
+  </body>
+</html>
